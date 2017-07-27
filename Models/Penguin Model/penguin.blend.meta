@@ -1,0 +1,525 @@
+fileFormatVersion: 2
+guid: fcce94456fa1f034eba0f37ff7f6bc49
+timeCreated: 1501020091
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Ankle_L
+    100002: Ankle_R
+    100004: Armature_002
+    100006: Beak
+    100008: Foot_L
+    100010: Foot_R
+    100012: FootIK_L
+    100014: FootIK_R
+    100016: Head
+    100018: Lower_Chest
+    100020: Lower_Stomach
+    100022: Lower_Wing_L
+    100024: Lower_Wing_R
+    100026: Master_Control_Bone
+    100028: Neck
+    100030: //RootNode
+    100032: Plane_004
+    100034: Upper_Chest
+    100036: Upper_Leg_L
+    100038: Upper_Leg_R
+    100040: Upper_Stomach
+    100042: Upper_Wing_L
+    100044: Upper_Wing_R
+    100046: WingIK_L
+    100048: WingIK_R
+    400000: Ankle_L
+    400002: Ankle_R
+    400004: Armature_002
+    400006: Beak
+    400008: Foot_L
+    400010: Foot_R
+    400012: FootIK_L
+    400014: FootIK_R
+    400016: Head
+    400018: Lower_Chest
+    400020: Lower_Stomach
+    400022: Lower_Wing_L
+    400024: Lower_Wing_R
+    400026: Master_Control_Bone
+    400028: Neck
+    400030: //RootNode
+    400032: Plane_004
+    400034: Upper_Chest
+    400036: Upper_Leg_L
+    400038: Upper_Leg_R
+    400040: Upper_Stomach
+    400042: Upper_Wing_L
+    400044: Upper_Wing_R
+    400046: WingIK_L
+    400048: WingIK_R
+    4300000: Plane_004
+    7400000: Walk
+    7400002: Attack
+    7400004: Wing Flap
+    7400006: Head Extension
+    7400008: Idle Animation
+    9500000: //RootNode
+    13700000: Plane_004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Default Take
+      firstFrame: 2
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Master_Control_Bone
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head/Beak
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L/Lower_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R/Lower_Wing_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L/Foot_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R/Foot_R
+        weight: 1
+      - path: Armature_002/WingIK_L
+        weight: 1
+      - path: Armature_002/WingIK_R
+        weight: 1
+      - path: Plane_004
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Armature_002Action_007
+      firstFrame: 77
+      lastFrame: 102
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Master_Control_Bone
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head/Beak
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L/Lower_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R/Lower_Wing_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L/Foot_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R/Foot_R
+        weight: 1
+      - path: Armature_002/WingIK_L
+        weight: 1
+      - path: Armature_002/WingIK_R
+        weight: 1
+      - path: Plane_004
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Wing Flap
+      takeName: Default Take
+      firstFrame: 203
+      lastFrame: 242
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Master_Control_Bone
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head/Beak
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L/Lower_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R/Lower_Wing_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L/Foot_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R/Foot_R
+        weight: 1
+      - path: Armature_002/WingIK_L
+        weight: 1
+      - path: Armature_002/WingIK_R
+        weight: 1
+      - path: Plane_004
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Head Extension
+      takeName: Default Take
+      firstFrame: 265
+      lastFrame: 314
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Master_Control_Bone
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head/Beak
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L/Lower_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R/Lower_Wing_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L/Foot_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R/Foot_R
+        weight: 1
+      - path: Armature_002/WingIK_L
+        weight: 1
+      - path: Armature_002/WingIK_R
+        weight: 1
+      - path: Plane_004
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle Animation
+      takeName: Default Take
+      firstFrame: 102
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature_002
+        weight: 1
+      - path: Armature_002/Master_Control_Bone
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/FootIK_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Neck/Head/Beak
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_L/Lower_Wing_L
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R
+        weight: 1
+      - path: Armature_002/Master_Control_Bone/Lower_Stomach/Upper_Stomach/Lower_Chest/Upper_Chest/Upper_Wing_R/Lower_Wing_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_L/Ankle_L/Foot_L
+        weight: 1
+      - path: Armature_002/Upper_Leg_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R
+        weight: 1
+      - path: Armature_002/Upper_Leg_R/Ankle_R/Foot_R
+        weight: 1
+      - path: Armature_002/WingIK_L
+        weight: 1
+      - path: Armature_002/WingIK_R
+        weight: 1
+      - path: Plane_004
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
