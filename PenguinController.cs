@@ -1,14 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 public class PenguinController : MonoBehaviour {
 
     public float speed =  3.0f;
     public float obstacleRange = 9.0f;
+    public float attackRange = 3.0f;
 
     private Animator m_anim;
     private Rigidbody m_rigidBody;
+    private NavMeshAgent m_navAgent;
+    private GameObject player;
     private bool _alive;
 
 
@@ -17,7 +21,10 @@ public class PenguinController : MonoBehaviour {
         m_anim = GetComponent<Animator>();
         m_anim.SetFloat("speed", speed * 0.75f);
         m_rigidBody = GetComponent<Rigidbody>();
-        m_rigidBody.centerOfMass = new Vector3(-0.2f, 2.1f, 0.8f);
+        m_rigidBody.centerOfMass = new Vector3(-0.2f, 2.4f, 0.8f);
+        m_navAgent = GetComponent<NavMeshAgent>();
+        m_navAgent.speed = 5.0f;
+        player = GameObject.Find("Player");
         _alive = true;
 
     }
@@ -25,15 +32,20 @@ public class PenguinController : MonoBehaviour {
     public void ReactToHit()
     {
         _alive = false;
-        m_anim.SetBool("alive", false);
     }
 
-	void Update ()
+    void Update()
     {
-        if (_alive)
-            wanderAround();
-        
-	}
+        m_navAgent.SetDestination(player.transform.position);
+        bool withinAttackDist = Vector3.Distance(transform.position, player.transform.position) < attackRange;
+        if (withinAttackDist)
+        {
+            m_anim.SetBool("WithinAttackingDistance", withinAttackDist);
+            Debug.Log(withinAttackDist);
+        }
+        // m_anim.SetBool("WithinAttackingDistance", withinAttackDist);
+        //Debug.Log(withinAttackDist);
+    }
 
     public void wanderAround()
     {
